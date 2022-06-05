@@ -6,6 +6,6 @@ async function makeReq(){
   const data = await res.json()
 
   console.log(data);
-  document.querySelector("#coinResult").textContent = data.name
+  document.querySelector("#coinResult").textContent = data
   
 }
